@@ -1,0 +1,15 @@
+package DayOne.Operators;
+
+import java.util.Scanner;
+public class CircumferenceOfCircle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a radius: ");
+        double radius = sc.nextDouble();
+        double circumference  = 2 * Math.PI * radius;
+        System.out.printf("Circumference of Circle = %.2f%n", circumference );
+
+        sc.close();
+    }
+}
